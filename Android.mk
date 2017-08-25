@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter grandprimeve3g coreprimeve3g core33g,$(TARGET_DEVICE)),)
+ifneq ($(filter grandneove3g grandprimeve3g coreprimeve3g core33g,$(TARGET_DEVICE)),)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
